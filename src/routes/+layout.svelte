@@ -2,10 +2,10 @@
 	import '../app.css';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 </script>
-	
-<Navbar fluid={true}>
+
+<Navbar fluid={true} class=" bg-sky-900 text-sky-100">
 <a href="/"><NavBrand>
-	<img src="/logo.png" class="me-3 h-6" alt="Namla Logo">
+	<img src="https://cdn.namla.sa/namla.png" class="me-3 h-6 rounded-md" alt="Namla Logo">
 	<span class="self-center whitespace-nowrap text-xl font-semibold">namla.sa</span>
 </NavBrand>
 </a>
