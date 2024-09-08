@@ -5,17 +5,17 @@
 	$: activeUrl = $page.url.pathname;
 	let activeClass = 'text-cyan-50 bg-cyan-500 md:bg-transparent md:text-cyan-300';
 	let nonActiveClass =
-		'text-gray-600 hover:bg-gray-300 md:text-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-cyan-500 dark:text-gray-400';
+		'text-gray-600 hover:bg-gray-300 md:text-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-cyan-500 text-gray-400';
+  import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from 'flowbite-svelte';
+  import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
 </script>
 
-<header class="absolute inset-x-0 top-0 z-50 shadow-md shadow-cyan-500">
-	<Navbar fluid={true} class=" bg-black text-cyan-50 shadow-lg shadow-cyan-500/5">
+<header class="absolute inset-x-0 top-0 z-50 border-b border-b-cyan-500">
+	<Navbar fluid={true} class=" bg-black text-white">
 		<a href="/">
 			<NavBrand class="t flex flex-col items-center justify-center">
-				<img src="logo.png" class="me-2 h-7 rounded-md" alt="Namla Logo" />
-				<span class="ext-center self-center whitespace-nowrap text-base font-semibold"
-					>namla.sa</span
-				>
+				<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
+
 			</NavBrand>
 		</a>
 		<NavHamburger class="hover:bg-black" />
@@ -23,12 +23,27 @@
 		<NavUl {activeUrl} {activeClass} {nonActiveClass}>
 			<NavLi href="/">Home</NavLi>
 			<NavLi href="/products">Products</NavLi>
-			<NavLi href="/services">Services</NavLi>
+			<!-- <NavLi href="/services">Services</NavLi> -->
 			<NavLi href="/about">About</NavLi>
-			<NavLi href="/blog">Blog</NavLi>
-			<NavLi href="/careers">Careers</NavLi>
+			<NavLi href="/research">Research</NavLi>
+			<!-- <NavLi href="/blog">Blog</NavLi> -->
+			<!-- <NavLi href="/careers">Careers</NavLi> -->
 		</NavUl>
 	</Navbar>
 </header>
 
 <slot></slot>
+
+<footer class="border-t border-t-cyan-500">
+	<Footer footerType="socialmedia" class="bg-black ">
+				<div class="sm:flex sm:items-center sm:justify-between">
+		  <FooterCopyright href="https://namla.sa" by="namla.sa" />
+		  <div class="flex mt-4 space-x-6 rtl:space-x-reverse sm:justify-center sm:mt-0">
+			<FooterIcon href="https://github.com/namla-sa">
+			  <GithubSolid class="w-5 h-5 text-gray-300 hover: hover:text-cyan-300" />
+			</FooterIcon>
+			<p class=" text-cyan-50">info@namla.sa</p>
+		  </div>
+		</div>
+	  </Footer>
+</footer>

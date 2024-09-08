@@ -60,39 +60,39 @@
 		>
 			<img
 				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-				src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+				src="gcp.webp"
 				alt="Google Cloud Platform"
 				width="158"
 				height="48"
 			/>
 			<img
 				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-				src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+				src="ultralytics.webp"
 				alt="Ultralytics"
 				width="158"
 				height="48"
 			/>
 			<img
 				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-				src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+				src="/espressif2.png"
 				alt="Espressif"
 				width="158"
 				height="48"
 			/>
 			<img
-				class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-				src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-				alt="Future Solutions"
-				width="158"
-				height="48"
-			/>
-			<img
-				class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-				src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-				alt="CNTXT"
-				width="158"
-				height="48"
-			/>
+			class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+			src="/pcbway.png"
+			alt="PCBWay"
+			width="158"
+			height="48"
+		/>
+		<img
+		class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+		src="/anderesen.png"
+		alt="Andersen Lab"
+		width="158"
+		height="48"
+	/>
 		</div>
 	</div>
 </div>
