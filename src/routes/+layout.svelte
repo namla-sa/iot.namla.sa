@@ -4,29 +4,31 @@
 	import { page } from '$app/stores';
 	$: activeUrl = $page.url.pathname;
 	let activeClass = 'text-cyan-50 bg-cyan-500 md:bg-transparent md:text-cyan-300';
-	let nonActiveClass = 'text-gray-600 hover:bg-gray-300 md:text-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-cyan-500 dark:text-gray-400';
+	let nonActiveClass =
+		'text-gray-600 hover:bg-gray-300 md:text-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-cyan-500 dark:text-gray-400';
 </script>
 
-<header class="absolute inset-x-0 top-0 z-50">
-<Navbar fluid={true} class=" bg-black shadow-lg shadow-cyan-500/5 text-cyan-50">
-<a href="/">
-	<NavBrand>
-	<img src="logo.png" class="me-2 h-7 rounded-md" alt="Namla Logo">
-	<span class="self-center whitespace-nowrap text-xl font-semibold">namla.sa</span>
-</NavBrand>
-</a>
+<header class="absolute inset-x-0 top-0 z-50 shadow-md shadow-cyan-500">
+	<Navbar fluid={true} class=" bg-black text-cyan-50 shadow-lg shadow-cyan-500/5">
+		<a href="/">
+			<NavBrand class="t flex flex-col items-center justify-center">
+				<img src="logo.png" class="me-2 h-7 rounded-md" alt="Namla Logo" />
+				<span class="ext-center self-center whitespace-nowrap text-base font-semibold"
+					>namla.sa</span
+				>
+			</NavBrand>
+		</a>
+		<NavHamburger class="hover:bg-black" />
 
-<NavHamburger class='hover:bg-black'/>
-<NavUl {activeUrl} {activeClass} {nonActiveClass}>
-	<NavLi href="/">Home</NavLi>
-	<NavLi href="/products">Products</NavLi>
-	<NavLi href="/services">Services</NavLi>
-	<NavLi href="/about">About</NavLi>
-	<NavLi href="/blog">Blog</NavLi>
-	<NavLi href="/careers">Careers</NavLi>
-</NavUl>
-
-</Navbar>
-
+		<NavUl {activeUrl} {activeClass} {nonActiveClass}>
+			<NavLi href="/">Home</NavLi>
+			<NavLi href="/products">Products</NavLi>
+			<NavLi href="/services">Services</NavLi>
+			<NavLi href="/about">About</NavLi>
+			<NavLi href="/blog">Blog</NavLi>
+			<NavLi href="/careers">Careers</NavLi>
+		</NavUl>
+	</Navbar>
 </header>
+
 <slot></slot>
