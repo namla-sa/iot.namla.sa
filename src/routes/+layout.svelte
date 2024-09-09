@@ -40,7 +40,7 @@
 	<Footer footerType="socialmedia" class="bg-black ">
 		<div>
 			<div class="mt-4 flex justify-center space-x-6 sm:mt-0 rtl:space-x-reverse">
-				<FooterIcon href="https://wa.me/0966546207191" target="_blank">
+				<FooterIcon href="https://wa.me/966546207191" target="_blank">
 					<WhatsappSolid class="hover: h-6 w-6 text-gray-300 hover:text-cyan-300" />
 				</FooterIcon>
 				<FooterIcon href="mailto:info@namla.sa" target="_blank">
