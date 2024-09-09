@@ -7,13 +7,14 @@
 	let nonActiveClass =
 		'text-gray-600 hover:bg-gray-300 md:text-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-cyan-500 text-gray-400';
 	import { Footer, FooterCopyright, FooterIcon } from 'flowbite-svelte';
-	import { GithubSolid } from 'flowbite-svelte-icons';
+	import { GithubSolid, EnvelopeSolid, WhatsappSolid } from 'flowbite-svelte-icons';
 </script>
 
 <header class="absolute inset-x-0 top-0 z-50 border-b border-b-cyan-500">
 	<Navbar fluid={true} class=" bg-black text-white">
-		<NavBrand href="/" class="t z-50 flex flex-col items-center justify-center">
-			<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
+		<NavBrand href="/" class="z-50 flex flex-row items-center justify-stretch">
+			<img src="https://cdn.namla.sa/namla.png" class="me-2 flex 1 h-12 rounded-md" alt="Namla Logo" />
+			<span>namla.sa</span>
 		</NavBrand>
 		<NavHamburger class="hover:bg-black" />
 
@@ -33,13 +34,21 @@
 
 <footer class="border-t border-t-cyan-500">
 	<Footer footerType="socialmedia" class="bg-black ">
-		<div class="sm:flex sm:items-center sm:justify-between">
-			<FooterCopyright href="https://namla.sa" by="namla.sa" />
-			<div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center rtl:space-x-reverse">
-				<FooterIcon href="https://github.com/namla-sa">
-					<GithubSolid class="hover: h-5 w-5 text-gray-300 hover:text-cyan-300" />
+		<div >
+			<div class="mt-4 flex space-x-6 sm:mt-0 justify-center rtl:space-x-reverse">
+				<FooterIcon href="https://wa.me/0966546207191" target="_blank">
+					<WhatsappSolid class="hover: h-6 w-6 text-gray-300 hover:text-cyan-300" />
 				</FooterIcon>
-				<p class=" text-cyan-50">info@namla.sa</p>
+				<FooterIcon href="mailto:info@namla.sa" target="_blank">
+					<EnvelopeSolid class="hover: h-6 w-6 text-gray-300 hover:text-cyan-300" />
+				</FooterIcon>
+				<FooterIcon href="https://github.com/namla-sa" target="_blank">
+					<GithubSolid class="hover: h-6 w-6 text-gray-300 hover:text-cyan-300" />
+				</FooterIcon>
+			</div>
+			<div class="flex justify-center items-center">
+			<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
+			<FooterCopyright href="https://namla.sa" by="namla.sa"/>
 			</div>
 		</div>
 	</Footer>
