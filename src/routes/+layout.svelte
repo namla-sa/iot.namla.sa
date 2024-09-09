@@ -6,15 +6,8 @@
 	let activeClass = 'text-cyan-50 bg-cyan-500 md:bg-transparent md:text-cyan-300';
 	let nonActiveClass =
 		'text-gray-600 hover:bg-gray-300 md:text-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-cyan-500 text-gray-400';
-	import {
-		Footer,
-		FooterCopyright,
-		FooterLinkGroup,
-		FooterLink,
-		FooterBrand,
-		FooterIcon
-	} from 'flowbite-svelte';
-	import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
+	import { Footer, FooterCopyright, FooterIcon } from 'flowbite-svelte';
+	import { GithubSolid } from 'flowbite-svelte-icons';
 </script>
 
 <header class="absolute inset-x-0 top-0 z-50 border-b border-b-cyan-500">
