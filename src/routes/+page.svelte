@@ -80,19 +80,19 @@
 				height="48"
 			/>
 			<img
-			class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-			src="https://cdn.namla.sa/pcbway.png"
-			alt="PCBWay"
-			width="158"
-			height="48"
-		/>
-		<img
-		class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-		src="https://cdn.namla.sa/anderesen.png"
-		alt="Andersen Lab"
-		width="158"
-		height="48"
-	/>
+				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+				src="https://cdn.namla.sa/pcbway.png"
+				alt="PCBWay"
+				width="158"
+				height="48"
+			/>
+			<img
+				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+				src="https://cdn.namla.sa/anderesen.png"
+				alt="Andersen Lab"
+				width="158"
+				height="48"
+			/>
 		</div>
 	</div>
 </div>
