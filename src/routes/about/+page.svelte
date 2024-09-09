@@ -8,16 +8,30 @@
 			style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
 		></div>
 	</div>
-	<div class="py-24 sm:py-44">
+	<div class="pt-24 sm:pt-44">
 		<div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
 			<div class="max-w-2xl xl:col-span-1">
 				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 					Meet our key members
 				</h2>
 				<p class="mt-6 text-lg leading-8 text-gray-600">
-					The founding team of namla: Our first builders and believers
+					<strong>Our Founding Team: The First Builders and Believers</strong>
+				</p>
+				<p class="mt-4 text-lg leading-8 text-gray-600">
+					At namla, our journey began with a simple idea and the dedication of a few individuals
+					committed to creating something meaningful. Our founding team brings together diverse
+					skills and a shared passion for building innovative solutions that make a difference.
+				</p>
+				<p class="mt-4 text-lg leading-8 text-gray-600">
+					With a focus on turning data into valuable insights, we guide our decisions with clarity
+					and precision. Our hardware development is driven by creativity and technical expertise,
+					building the robust foundations that power our solutions. Behind the scenes, our
+					operations ensure that everything runs smoothly, coordinating efforts and managing
+					logistics to keep us moving forward. Financial oversight is handled with care, ensuring
+					stability and preparing us for growth.
 				</p>
 			</div>
+
 			<ul role="list" class="grid grid-cols-2 gap-x-8 gap-y-12 sm:gap-y-16 xl:col-span-2">
 				<li>
 					<div class="flex flex-col items-center gap-y-4">
