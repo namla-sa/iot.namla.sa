@@ -13,7 +13,11 @@
 <header class="absolute inset-x-0 top-0 z-50 border-b border-b-cyan-500">
 	<Navbar fluid={true} class=" bg-black text-white">
 		<NavBrand href="/" class="z-50 flex flex-row items-center justify-stretch">
-			<img src="https://cdn.namla.sa/namla.png" class="me-2 flex 1 h-12 rounded-md" alt="Namla Logo" />
+			<img
+				src="https://cdn.namla.sa/namla.png"
+				class="1 me-2 flex h-12 rounded-md"
+				alt="Namla Logo"
+			/>
 			<span>namla.sa</span>
 		</NavBrand>
 		<NavHamburger class="hover:bg-black" />
@@ -34,8 +38,8 @@
 
 <footer class="border-t border-t-cyan-500">
 	<Footer footerType="socialmedia" class="bg-black ">
-		<div >
-			<div class="mt-4 flex space-x-6 sm:mt-0 justify-center rtl:space-x-reverse">
+		<div>
+			<div class="mt-4 flex justify-center space-x-6 sm:mt-0 rtl:space-x-reverse">
 				<FooterIcon href="https://wa.me/0966546207191" target="_blank">
 					<WhatsappSolid class="hover: h-6 w-6 text-gray-300 hover:text-cyan-300" />
 				</FooterIcon>
@@ -46,9 +50,9 @@
 					<GithubSolid class="hover: h-6 w-6 text-gray-300 hover:text-cyan-300" />
 				</FooterIcon>
 			</div>
-			<div class="flex justify-center items-center">
-			<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
-			<FooterCopyright href="https://namla.sa" by="namla.sa"/>
+			<div class="flex items-center justify-center">
+				<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
+				<FooterCopyright href="https://namla.sa" by="namla.sa" />
 			</div>
 		</div>
 	</Footer>

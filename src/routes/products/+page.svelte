@@ -110,7 +110,7 @@
 									/></svg
 								>
 							</svg>
-							<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Qari</h3>
+							<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Qaari</h3>
 							<p class="my-4 font-light">
 								Qari is an external API for License Plate Recognition, designed for developers and
 								government agencies. It offers seamless integration for applications needing
@@ -139,7 +139,7 @@
 									/></svg
 								>
 							</svg>
-							<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Hami</h3>
+							<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Haami</h3>
 							<p class="my-4 font-light">
 								Hami is an IoT solution for industrial safety, utilizing smart sensors and real-time
 								data analytics to monitor hazardous conditions and enhance workplace safety across
