@@ -15,7 +15,7 @@
 			<ul role="list" class="grid grid-cols-2 gap-x-8 gap-y-12 sm:gap-y-16 xl:col-span-2">
 				<li>
 					<div class="flex flex-col items-center gap-y-4"> <!-- Increased gap between elements -->
-						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/alyazid.png" alt=""> <!-- Increased image size -->
+						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/alyazid.webp" alt=""> <!-- Increased image size -->
 						<h3 class="text-lg font-semibold leading-7 tracking-tight text-gray-900 text-center"> <!-- Made the text slightly larger -->
 							Alyazid Alhumaydani
 						</h3>
@@ -26,7 +26,7 @@
 				</li>
 				<li>
 					<div class="flex flex-col items-center gap-y-4">
-						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/salem.png" alt="">
+						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/salem.webp" alt="">
 						<h3 class="text-lg font-semibold leading-7 tracking-tight text-gray-900 text-center">
 							Salem Badighaish
 						</h3>
@@ -37,7 +37,7 @@
 				</li>
 				<li>
 					<div class="flex flex-col items-center gap-y-4">
-						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/aseel.png" alt="">
+						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/aseel.webp" alt="">
 						<h3 class="text-lg font-semibold leading-7 tracking-tight text-gray-900 text-center">
 							Aseel Badawi
 						</h3>
@@ -48,7 +48,7 @@
 				</li>
 				<li>
 					<div class="flex flex-col items-center gap-y-4">
-						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/emad.png" alt="">
+						<img class="h-24 w-24 rounded-full" src="https://cdn.namla.sa/emad.webp" alt="">
 						<h3 class="text-lg font-semibold leading-7 tracking-tight text-gray-900 text-center">
 							Emad Alghamdi
 						</h3>

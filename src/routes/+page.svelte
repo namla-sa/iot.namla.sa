@@ -74,21 +74,21 @@
 			/>
 			<img
 				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-				src="https://cdn.namla.sa/espressif.png"
+				src="https://cdn.namla.sa/espressif.webp"
 				alt="Espressif"
 				width="158"
 				height="48"
 			/>
 			<img
 				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-				src="https://cdn.namla.sa/pcbway.png"
+				src="https://cdn.namla.sa/pcbway.webp"
 				alt="PCBWay"
 				width="158"
 				height="48"
 			/>
 			<img
 				class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-				src="https://cdn.namla.sa/anderesen.png"
+				src="https://cdn.namla.sa/anderesen.webp"
 				alt="Andersen Lab"
 				width="158"
 				height="48"
