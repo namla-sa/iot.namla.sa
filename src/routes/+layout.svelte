@@ -12,11 +12,9 @@
 
 <header class="absolute inset-x-0 top-0 z-50 border-b border-b-cyan-500">
 	<Navbar fluid={true} class=" bg-black text-white">
-		<a href="/">
-			<NavBrand class="t flex flex-col items-center justify-center">
+			<NavBrand href="/" class="t flex flex-col items-center justify-center z-50">
 				<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
 			</NavBrand>
-		</a>
 		<NavHamburger class="hover:bg-black" />
 
 		<NavUl {activeUrl} {activeClass} {nonActiveClass}>
