@@ -15,10 +15,10 @@
 		<NavBrand href="/" class="z-50 mx-2 flex flex-col items-center justify-center sm:mx-3">
 			<img
 				src="https://cdn.namla.sa/namla.png"
-				class="1 me-2 flex h-12 rounded-md"
-				alt="Namla Logo"
+				class="1 mx-2 flex h-12 rounded-md"
+				alt="namla Logo"
 			/>
-			<span class="text-pretty">namla.sa</span>
+			<span class="font-s text-pretty font-mono font-semibold">namla.sa</span>
 		</NavBrand>
 		<NavHamburger class="hover:bg-black" />
 
