@@ -1,4 +1,4 @@
-<div class="relative isolate px-6 pt-14 lg:px-8">
+<div class="relative isolate pt-14">
 	<div
 		class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
 	>

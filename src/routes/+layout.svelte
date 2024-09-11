@@ -14,7 +14,7 @@
 	<Navbar fluid={true} class=" bg-black text-white">
 		<NavBrand href="/" class="z-50 mx-2 flex flex-col items-center justify-center sm:mx-3">
 			<img
-				src="https://cdn.namla.sa/namla.png"
+				src="https://cdn.namla.sa/namla.webp"
 				class="1 mx-2 flex h-12 rounded-md"
 				alt="namla Logo"
 			/>
@@ -51,7 +51,7 @@
 				</FooterIcon>
 			</div>
 			<div class="flex items-center justify-center">
-				<img src="https://cdn.namla.sa/namla.png" class="me-2 h-12 rounded-md" alt="Namla Logo" />
+				<img src="https://cdn.namla.sa/namla.webp" class="me-2 h-8 rounded-md" alt="Namla Logo" />
 				<FooterCopyright href="https://namla.sa" by="namla.sa" />
 			</div>
 		</div>
